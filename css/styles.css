@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  display: flex;
+
+  /* Alinha verticalmente ao centro */
+  align-items: center;
+
+  /* Alinha verticalmente ao topo */
+  /* align-items: flex-start; */
+
+  /* Alinha verticalmente ao rodapé */
+  /* align-items: flex-end; */
+
+  /* Alinha verticalmente na base da linha */
+  /* align-items: baseline; */
+  /* Estica os itens para preencher o container  */
+  /* align-items: stretch; */
+
+  /* Alinha horizontalmente ao centro */
+  /* justify-content: center; */
+
+  /* Alinha horizontalmente ao inicio (esquerda) <=*/
+  /* justify-content: flex-start; */
+
+  /* Alinha horizontalmente ao final (direita) => */
+  /* justify-content: flex-end; */
+
+  /* Distribui horizontalmente deixando espaço entre os itens */
+  /* justify-content: space-between; */
+
+  /* Distribui horizontalmente deixando espaço ao redor dos itens */
+  /* justify-content: space-around; */
+
+  /* Distribui horizontalmente deixando espaço ao redor dos itens de forma igual */
+  /* justify-content: space-evenly; */
+
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+
+  /* column inverte o justify-content e o align-items */
+  /* justify-content passa a ser vertical */
+  /* align-items passa a ser horizontal */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap-reverse; */
+  flex-wrap: wrap;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 5px;
+  /* display: inline; */
+  /* display: block; */
+
+  /* Valor padrão */
+  order: 0;
+}
+.azul {
+  background-color: blue;
+  /* height: 500px; */
+  order: 2;
+  flex-grow: 0.5;
+}
+.amarelo {
+  background-color: yellow;
+  order: 1;
+  flex-grow: 1;
+  align-self: flex-start;
+}
+
+
+
+
+
+
+
